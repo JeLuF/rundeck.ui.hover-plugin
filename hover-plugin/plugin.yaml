@@ -1,0 +1,15 @@
+name: Hover plugin
+version: 1
+rundeckPluginVersion: 1.2
+author: Jens Frank
+date: 2019-02-22
+url: http://github.com/
+providers:
+  - service: UI
+    name: hover-plugin
+    plugin-type: ui
+    title: "Hover plugin"
+    description: "On job edit pages, make the cancel/save buttons hover at a fixed position"
+    ui:
+      - pages: '*'
+        styles: css/menu_jobs.css

@@ -1,0 +1,14 @@
+div.card-footer {
+   position: fixed !important;
+   bottom: 0px !important;
+   right: 0px !important;
+   height: 3em !important;
+   padding-bottom: 4em !important;
+   padding-top: 1em !important;
+   background: #ddd;
+   z-index: 6;
+   border-radius: 1em 0em 0em 0em;
+   border-left: solid 2px #333;
+   border-top: solid 2px #333;
+}
+
